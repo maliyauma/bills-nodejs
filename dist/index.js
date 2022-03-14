@@ -11,7 +11,6 @@ const type_graphql_1 = require("type-graphql");
 const SampleResolver_1 = require("./resolvers/SampleResolver");
 const BookResolver_1 = require("./resolvers/BookResolver");
 (async () => {
-    const PORT = 4000;
     try {
         const app = (0, express_1.default)();
         const httpServer = http_1.default.createServer(app);
@@ -24,7 +23,7 @@ const BookResolver_1 = require("./resolvers/BookResolver");
         });
         await server.start();
         server.applyMiddleware({ app });
-        await new Promise(resolve => httpServer.listen({ port: 4000 }, resolve));
+        await new Promise(resolve => httpServer.listen({ port: process.env.PORT || 4000 }, resolve));
         console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`);
     }
     catch (e) {
