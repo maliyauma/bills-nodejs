@@ -1,0 +1,1 @@
+{"version":3,"file":"testResolver.js","sourceRoot":"","sources":["../../src/resolvers/testResolver.ts"],"names":[],"mappings":";;;AAAA,MAAM,KAAK,GAAG;IACV;QACE,KAAK,EAAE,eAAe;QACtB,MAAM,EAAE,aAAa;KACtB;IACD;QACE,KAAK,EAAE,eAAe;QACtB,MAAM,EAAE,aAAa;KACtB;CACF,CAAC;AAES,QAAA,aAAa,GAAG;IACzB,KAAK,EAAE;QACL,KAAK,EAAE,GAAG,EAAE,CAAC,KAAK;KACnB;CACF,CAAC"}

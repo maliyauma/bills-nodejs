@@ -1,0 +1,1 @@
+{"version":3,"file":"SampleResolver.js","sourceRoot":"","sources":["../../src/resolvers/SampleResolver.ts"],"names":[],"mappings":";;;;;;;;;;;;AACA,+CAIsB;AAGtB,IAAa,cAAc,GAA3B,MAAa,cAAc;IAGzB,QAAQ;QACN,OAAO,aAAa,CAAC;IACvB,CAAC;CAKF,CAAA;AAPC;IADC,IAAA,oBAAK,EAAC,GAAE,EAAE,CAAC,MAAM,CAAC;;;;8CAGlB;AALU,cAAc;IAD1B,IAAA,uBAAQ,GAAE;GACE,cAAc,CAU1B;AAVY,wCAAc"}
