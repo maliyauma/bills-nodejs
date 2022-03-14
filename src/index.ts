@@ -14,7 +14,7 @@ import { BookResolver } from './resolvers/BookResolver';
 
 
 (async () => {
-  const PORT = 4000;
+  
   try{
     const app = express();
     const httpServer = http.createServer(app);
@@ -33,7 +33,7 @@ import { BookResolver } from './resolvers/BookResolver';
     await server.start();
     server.applyMiddleware({ app });
 
-    await new Promise(resolve => httpServer.listen({ port: 4000 }, resolve));
+    await new Promise(resolve => httpServer.listen({ port: process.env.PORT || 4000 }, resolve));
     console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`);
 }
 catch(e){
